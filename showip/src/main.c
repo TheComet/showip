@@ -14,7 +14,7 @@ int main(int argc, char** argv)
         return 0;
     }
 
-    showip(argv[1]);
+    showip(argv[1], 0); // ports not implemented yet
 
     return 0;
 }
